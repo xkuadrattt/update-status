@@ -1,0 +1,18 @@
+.statusfield {
+  margin: 2rem 0;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  cursor: default;
+}
+
+.statusfield:hover .statusfield--button {
+  opacity: 1;
+}
+.statusfield--button {
+  padding: 1px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+}

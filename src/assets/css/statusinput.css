@@ -1,0 +1,14 @@
+.statusinput {
+  display: flex;
+  gap: 1rem;
+}
+.statusinput textarea {
+  width: 100%;
+  max-width: 250ch;
+  min-height: 5rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1.15rem;
+  resize: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
