@@ -1,18 +1,29 @@
 .statusfield {
+  position: relative;
   margin: 2rem 0;
   display: flex;
   gap: 1rem;
+  justify-content: space-between;
   align-items: center;
   cursor: default;
+}
+
+.statusfield p {
+  padding-right: 1.5rem;
 }
 
 .statusfield:hover .statusfield--button {
   opacity: 1;
 }
 .statusfield--button {
-  padding: 1px;
+  width: 1rem;
+  padding: 2px;
   background-color: transparent;
   border: none;
   cursor: pointer;
   opacity: 0;
+}
+
+.statusfield--button:hover {
+  background-color: rgba(0, 0, 0, 0.15);
 }

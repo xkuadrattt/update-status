@@ -5,7 +5,7 @@ const Statusinput = () => {
   return (
     <div className="statusinput" role="section input">
       <img src={imgProfile} alt="profile" className="statusinput--img" />
-      <textarea></textarea>
+      <textarea name="status"></textarea>
     </div>
   );
 };

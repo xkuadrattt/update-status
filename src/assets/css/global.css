@@ -12,6 +12,13 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+img,
+button,
+a,
+svg {
+  display: block;
+}
+
 main {
   max-width: 20rem;
   margin: 0 auto;

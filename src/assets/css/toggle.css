@@ -1,0 +1,21 @@
+.toggle {
+  position: absolute;
+  top: 2.75rem;
+  right: -2.5rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #00000010;
+  z-index: 2;
+}
+
+.toggle > button {
+  border: none;
+  background-color: transparent;
+  padding: 0.2rem 0.5rem;
+}
+
+.toggle > button:hover {
+  background-color: white;
+}
